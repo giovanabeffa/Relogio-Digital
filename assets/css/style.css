@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(200deg, #efd5ff 0%, #515ada 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 170px;
+    width: 550px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+
+    div {
+        height: 140px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: rgba(19, 19, 19, 0.9);
+        box-shadow: 5px 5 px 15px rgb(0 0 0 / .7);
+        border-radius: 10px;
+        letter-spacing: 5px; 
+    }
+
+    span {
+        font-size: 70px;
+        font-family: 'Bitcount Single';
+    }
+
+    .tempo {
+        font-size: 10px;
+        font-family: 'Open Sans';
+    }
+}
